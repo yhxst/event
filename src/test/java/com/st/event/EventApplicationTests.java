@@ -15,6 +15,10 @@ public class EventApplicationTests {
 
     @Test
     public void eventTest() {
+        /*
+        balabala各种业务代码
+        */
+        //触发一下订单完成事件
         testEventProvider.orderFinished("aaaa","bbbb");
     }
 
